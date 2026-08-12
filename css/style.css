@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Minecraft;
+    font-size: x-large;
+}
+main {
+    color: darkgray;
+}
+header {
+    color: darkgray;
+}
+a:link {
+    color: skyblue;
+}
+a:visited {
+    color: skyblue;
+}
+footer a:link {
+    color: darkgray;
+}
+footer a:visited {
+    color: darkgray;
+}
+hr {
+    color: gray;
+    width: 80%;
+}
+ul {
+    text-align: left;
+    display: inline-block;
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../fonts/Minecraft.ttf') format('truetype');
+}
