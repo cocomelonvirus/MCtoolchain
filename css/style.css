@@ -3,11 +3,6 @@ body {
     text-align: center;
     font-family: Minecraft;
     font-size: x-large;
-}
-main {
-    color: darkgray;
-}
-header {
     color: darkgray;
 }
 a:link {
@@ -32,5 +27,27 @@ ul {
 }
 @font-face {
     font-family: 'Minecraft';
-    src: url('../fonts/Minecraft.ttf') format('truetype');
+    src: url('../assets/fonts/Minecraft.ttf') format('truetype');
+}
+table {
+    display: inline-block;
+}
+select {
+    background-color: darkgrey;
+}
+button {
+    background-color: darkgray;
+    color: black;
+    margin-top: 30px;
+    margin-inline: 30px;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+ul li img {
+    vertical-align: middle;
+    image-rendering: pixelated;
+}
+ul {
+    list-style-type: none;
 }
